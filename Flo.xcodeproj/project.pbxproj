@@ -13,6 +13,8 @@
 		30EB3F261B574C27007CDD00 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30EB3F251B574C27007CDD00 /* Images.xcassets */; };
 		30EB3F291B574C27007CDD00 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30EB3F271B574C27007CDD00 /* LaunchScreen.xib */; };
 		30EB3F351B574C28007CDD00 /* FloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB3F341B574C28007CDD00 /* FloTests.swift */; };
+		30EB3F3F1B574C6A007CDD00 /* PushButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB3F3E1B574C6A007CDD00 /* PushButtonView.swift */; };
+		30EB3F411B57591C007CDD00 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB3F401B57591C007CDD00 /* CounterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		30EB3F2E1B574C28007CDD00 /* FloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30EB3F331B574C28007CDD00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30EB3F341B574C28007CDD00 /* FloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloTests.swift; sourceTree = "<group>"; };
+		30EB3F3E1B574C6A007CDD00 /* PushButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushButtonView.swift; sourceTree = "<group>"; };
+		30EB3F401B57591C007CDD00 /* CounterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		30EB3F1B1B574C27007CDD00 /* Flo */ = {
 			isa = PBXGroup;
 			children = (
+				30EB3F421B575923007CDD00 /* Views */,
 				30EB3F1E1B574C27007CDD00 /* AppDelegate.swift */,
 				30EB3F201B574C27007CDD00 /* ViewController.swift */,
 				30EB3F221B574C27007CDD00 /* Main.storyboard */,
@@ -110,6 +115,15 @@
 				30EB3F331B574C28007CDD00 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30EB3F421B575923007CDD00 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				30EB3F401B57591C007CDD00 /* CounterView.swift */,
+				30EB3F3E1B574C6A007CDD00 /* PushButtonView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,7 +227,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				30EB3F211B574C27007CDD00 /* ViewController.swift in Sources */,
+				30EB3F3F1B574C6A007CDD00 /* PushButtonView.swift in Sources */,
 				30EB3F1F1B574C27007CDD00 /* AppDelegate.swift in Sources */,
+				30EB3F411B57591C007CDD00 /* CounterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
